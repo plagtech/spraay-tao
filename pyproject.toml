@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "spraay-tao"
+version = "0.1.0"
+description = "Batch payment tool for the Bittensor ecosystem — transfer TAO to hundreds of recipients in a single transaction"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Spraay", email = "contact@spraay.app"}
+]
+keywords = ["bittensor", "tao", "batch-transfer", "crypto", "payments", "substrate"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Office/Business :: Financial",
+]
+dependencies = [
+    "bittensor>=10.0.0",
+]
+
+[project.urls]
+Homepage = "https://spraay.app"
+Repository = "https://github.com/plagtech/spraay-tao"
+Documentation = "https://github.com/plagtech/spraay-tao#readme"
+
+[project.scripts]
+spraay-tao = "cli:main"
+
+[tool.setuptools.packages.find]
+include = ["spraay_tao*"]
