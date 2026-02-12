@@ -1,4 +1,4 @@
-# Spraay TAO
+# 💧 Spraay TAO
 
 **Batch payments for the Bittensor ecosystem.**
 
@@ -194,4 +194,4 @@ MIT
 
 ---
 
-Built by [Spraay](https://spraay.app) 
+Built by [Spraay](https://spraay.app) 💧
