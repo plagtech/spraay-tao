@@ -1,4 +1,4 @@
-# 🥭 Spraay TAO
+# Spraay TAO
 
 **Batch payments for the Bittensor ecosystem.**
 
