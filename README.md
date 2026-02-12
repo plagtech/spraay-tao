@@ -194,4 +194,4 @@ MIT
 
 ---
 
-Built by [Spraay](https://spraay.app) 🥭
+Built by [Spraay](https://spraay.app) 
